@@ -1,6 +1,6 @@
 package TD1;
 
-public class Chaine {
+public class Chaine implements Sommable<Chaine> {
     
     private String chaine;
 
@@ -10,5 +10,11 @@ public class Chaine {
 
     String getChaine(){
         return this.chaine;
+    }
+
+    @Override
+    public Chaine sommer(Chaine other) {
+        // TODO Auto-generated method stub
+        return null;
     }
 }
