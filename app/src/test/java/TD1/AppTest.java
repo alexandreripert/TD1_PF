@@ -14,9 +14,11 @@ import java.util.Set;
 
 public class AppTest {
 
+    
    /* public static final Arbre <T> arbre0() {
         return new Noeud(new ArrayList<Arbre>());
     } */
+
 
   /*  public static final Arbre arbre1() {
         final Arbre f1 = new Feuille(1);
